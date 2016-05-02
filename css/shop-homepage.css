@@ -5,11 +5,19 @@
  */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /* padding-top: 70px; */ /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.heading {
+  text-align: center
 }
 
 .slide-image {
     width: 100%;
+}
+
+#categories {
+  position: fixed;
 }
 
 .carousel-holder {
@@ -42,6 +50,7 @@ body {
 
 .thumbnail {
     padding: 0;
+    min-height: 180px;
 }
 
 .thumbnail .caption-full {
